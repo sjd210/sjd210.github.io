@@ -1,0 +1,181 @@
+.Projects {
+  text-align: center;
+  background-color: rgb(98, 151, 231);
+  /*background-image: url(waterGif.gif);
+  background-size: cover;
+  background-position: center; */
+  overflow: hidden;
+  position: relative;
+}
+
+.ProjGrid {
+  display: grid;
+  place-items: center;
+  padding-top: 4vh;
+  padding-bottom: 4vh;
+  padding-right: 10px;
+  gap: 4.1vw;
+}
+
+.ListElement {
+  max-height: 20vw;
+}
+
+.splash {
+  position: absolute;
+  overflow: hidden;
+  opacity: 0;
+
+  animation-name: splash;
+  animation-duration: 0.5s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+}
+
+@keyframes splash {
+  0% {height: "10px"; opacity: 0.1; display:block}
+  1% {display: block}
+  100%   {opacity: 0.1; display: none}
+}
+
+
+.Grid1 {
+  grid-template-columns: repeat(1, 1fr);
+}
+.Grid2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+.Grid3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.ProjIcon {
+  transform: translate(-5.8%, -135.5%);
+  max-width: 75%;
+}
+
+.ProjTitle {
+  transform: translate(20%, -1140%);
+  max-width: 67%;
+  max-height: 9%;
+  overflow: hidden;
+
+  font-size: 1vw;  
+  color: black;
+  text-decoration: underline;
+}
+
+.Proj {
+  position: relative;
+  width: 65vw;
+  max-width: 30vw;
+  
+  animation-name: padFloats;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.DescBackground {
+  max-width: 100%;
+}
+
+.DescText {
+  align-items: center;
+  font-size: 1vw;
+  position: absolute;
+}
+
+.Desc {
+  position: relative;
+  overflow: hidden;
+  float: right;
+
+  width: 65vw;
+  max-width: 64vw;
+}
+
+.description {
+  transform: translate(6.6%, -19.5vw);
+  max-width: 90%;
+  width: 90%;
+  max-height: 1px;
+  height: 100vh;
+}
+
+.date {
+  transform: translate(95%, -8.4vw);
+  max-width: 90%;
+  height: 8%;
+  width: 17.1%;
+}
+
+.collaborators {
+  transform: translate(199.5%, -8.4vw);
+  width: 32.2%;
+  height: 8%;
+}
+
+.tags {
+  transform: translate(20.5%, -5.3vw);
+  width: 80%;
+  height: 8%;
+}
+
+.TagTitle {
+  transform: translate(50.5%, -5.3vw);
+  text-align: right;
+  width: 10%;
+  height: 8%;
+}
+
+.DateTitle {
+  transform: translate(50.5%, -8.4vw);
+  text-align: right;
+  width: 10%;
+  height: 8%;
+}
+
+.CollaboratorsTitle {
+  transform: translate(530.5%, -8.4vw);
+  text-align: right;
+  width: 10%;
+  height: 8%;
+}
+
+.collaboratorsSelect {
+  transform: translate(197.5%, -8.8vw);
+  max-width: 32.5%;
+  max-height: 8%;
+  text-align: center;
+  color: black;
+  font-size: 1vw;
+}
+
+.option {
+  font-size: 1px;
+  text-align: r;
+}
+
+.ProjD {
+  max-height: 42vh;
+  max-width: 30vw;
+  float: left;
+  transform: translate(-1.2vw);
+}
+
+.Delay1 { animation-delay: 1s; }
+.Delay2 { animation-delay: 2s; }
+.Delay3 { animation-delay: 3s; }
+.Delay4 { animation-delay: 4s; }
+
+@keyframes padFloats {
+  0%   {left:0vw; }
+  100% {left:1vw;}
+}
+
+.ProjBackground {
+  object-fit: fill;
+  width: 100%;
+}
+

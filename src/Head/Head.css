@@ -1,0 +1,39 @@
+.container {
+  background-color: rgb(98, 151, 231);
+  min-width: 100vw;
+  padding-left: 0%;
+}
+
+.Nav {
+  border-radius: 100px;
+  background-color: rgb(111, 177, 41);
+
+  width: 99vw;
+  height: 7vh;
+  overflow: visible;
+}
+
+.grass {
+  transform: translateY(-13vh);
+  width: 100vw;
+  height: 21.5vh
+}
+
+.true {
+  color: aliceblue;
+}
+
+.Navs {
+  font-size: 3vh;
+  transform: translateY(-21.3vh);
+  height: 9vh;
+}
+  
+.Banner {
+  height: 13.7vh;
+  /* background: url("frogg.jpg"); */
+  background-color: rgb(57, 106, 180);
+  background-size: 44vh;
+  background-repeat: repeat;
+  width: 100vw;
+}

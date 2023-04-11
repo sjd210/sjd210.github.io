@@ -1,0 +1,26 @@
+.BioPic {
+  border-style: double;
+  border-width: 1vw;
+}
+
+.Title {
+  font-weight: 500;
+  font-size: 5vh;
+}
+
+.Subtitle {
+  font-weight: 500;
+  font-size: 3.5vh;
+  
+}
+
+.Content {
+  font-size: 1.5vh;
+}
+
+.Bio {
+  background-color: rgb(98, 151, 231);
+  text-align: center;
+  overflow: hidden;
+}
+

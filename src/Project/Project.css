@@ -1,0 +1,15 @@
+.Title {
+    font-weight: 500;
+    font-size: 5vh;
+    text-decoration: underline;
+}
+  
+.Body {
+    font-size: 2vh;
+}
+  
+.Page {
+    background-color: rgb(98, 151, 231);
+    text-align: center;
+    overflow: hidden;
+}
