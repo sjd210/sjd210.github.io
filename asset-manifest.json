@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.25b87902.css",
+    "main.js": "/static/js/main.76006d82.js",
+    "static/media/DwD.png": "/static/media/DwD.7f1265204f4a5fa0550e.png",
+    "static/media/CamGamJam.png": "/static/media/CamGamJam.348161114d7101720436.png",
+    "static/media/website.png": "/static/media/website.a5affb9355226a49b71d.png",
+    "static/media/maze.png": "/static/media/maze.7585917bf74a672dd502.png",
+    "static/media/chocken.png": "/static/media/chocken.cd655082779cd47b0be3.png",
+    "static/media/lilypad.png": "/static/media/lilypad.036e1bd8cf82139a4834.png",
+    "static/media/cusfs.png": "/static/media/cusfs.5cae1393593a984d7ea8.png",
+    "static/media/grass and such.png": "/static/media/grass and such.fc842c5827ae6cdb34bd.png",
+    "static/media/platform.png": "/static/media/platform.5da299cc083955d0e5b3.png",
+    "static/media/Sol.png": "/static/media/Sol.5552b0f06ed323695984.png",
+    "static/media/expandingCircle.gif": "/static/media/expandingCircle.5ec1cfd8c635763ae169.gif",
+    "index.html": "/index.html",
+    "main.25b87902.css.map": "/static/css/main.25b87902.css.map",
+    "main.76006d82.js.map": "/static/js/main.76006d82.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.25b87902.css",
+    "static/js/main.76006d82.js"
+  ]
+}
