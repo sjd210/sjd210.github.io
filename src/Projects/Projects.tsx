@@ -164,7 +164,7 @@ function backgroundClicked(e:any, setX:any, setY:any) {
 function Projects() {
   let a="";
 
-  const [mode, setMode] = useState(["grid", ProjectGrid(projList)]);
+  const [mode, setMode] = useState(["list", ProjectList(projList)]);
   const [X, setX] = useState("");
   const [Y, setY] = useState("");
   
